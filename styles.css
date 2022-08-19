@@ -1,0 +1,156 @@
+    /* General styles */
+* {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+header {
+    border: 2px solid black;
+}
+
+main {
+    border: 2px solid red;
+    font-family: 'Merriweather', serif;
+}
+
+footer {
+    border: 2px solid blue;
+}
+
+h1  {
+    color: #66BFBF;
+    font-family: 'Sacramento', cursive;
+    font-size: 60px;
+    
+}
+ 
+
+h2 {
+    color: #66BFBF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h3 {
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+p {
+    color: #40514E;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 60%;
+    margin: auto;
+    line-height: 2;
+}
+
+
+    /* Header styles */
+.picture {
+    width: 60px;
+    height: 60px;
+    
+}
+
+header {
+    background-color: #EAF6F6;
+    color: #66BFBF;
+    display: flex;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #66BFBF;
+    margin-right: 16px;
+}
+
+nav {
+    margin-left: 60%;
+    justify-content: space-around;
+    padding-top: 20px;
+    
+    
+}
+
+    /* Body styles */
+
+hr {
+    color: #EAF6F6;
+    border: 5px;
+    border-style: dotted;
+    width: 4%;
+    margin: auto;
+    border-bottom: none;
+    margin-top: 10px;
+}
+.top {
+    background-color: #EAF6F6;
+}
+.right-cloud {
+    margin-left: 55%;
+}
+
+.left-cloud {
+    margin-right: 55%;
+}
+
+.picture2 {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.bottom {
+    padding: 20px;
+}
+
+.skill {
+    border-radius: 50%;
+    border: 2px solid #11999E;
+    /* width: 25% */
+    width: 150px;
+    height: 150px;
+}
+
+/*
+#code-image {
+    float: left;
+    margin-right: 30px;
+}
+
+#sewing-image {
+    float: right;
+    margin-left: 30px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 20px auto 20px auto;
+    text-align: left;
+    line-height: 2;
+}
+*/
+
+ 
+/* Footer styles */
+footer {
+    background-color: #66BFBF;
+    padding: 2rem;
+}
+
+.footer-links {
+    color: #11999E;
+    text-decoration: none;
+    padding: 1rem;
+}
+
+#footnote {
+    color: #EAF6F6;
+    padding-top: 1rem;
+}
